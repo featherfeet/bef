@@ -4364,13 +4364,14 @@ cite {
   background-color: #ffffff;
 }
 
+/* MODIFIED BY OLIVER TREVOR */
 .author .author_image {
   float: left;
   display: inline-block;
-  -webkit-border-radius: 50%;
-          border-radius: 50%;
-  width: 100px;
-  height: 100px;
+/*  -webkit-border-radius: 50%;
+          border-radius: 50%;*/
+  width: 300px;
+/*  height: 100px; */
   overflow: hidden;
   margin-right: 2rem;
 }
@@ -4629,6 +4630,13 @@ cite {
   text-transform: uppercase;
   font-size: 1.2rem;
   color: #ffffff;
+}
+
+/* ADDED BY OLIVER TREVOR */
+.contact_us_text {
+    text-align: center;
+    font-size: 3rem;
+    color: #ffffff;
 }
 
 .container_contact .form_title::before, .container_contact .form_title::after {

@@ -1,6 +1,6 @@
 title: All Mixed Up California
 description: > # this means to ignore newlines until "baseurl:"
-    Community of multi-racial and multi-cultural students.
+    Community of multiracial and multicultural students.
 permalink: ':title/'
 #baseurl: "/" # the subpath of your site, e.g. /blog
 #url: "http://127.0.0.1:4000/" # the base hostname & protocol for your site, e.g. http://example.com
@@ -11,16 +11,18 @@ banner-title: # add banner title
 banner-desc: # add banner description
 
 # Author settings
-author-pic: face.jpg # your photo
-author-name: # your name
-about-author: # about author
-email: your-email@domain.com # your email
-phone: (496)-169-6557 # your pnone number
-website: https://dwayne.example.com # you website
+author-pic: main-logo-original.png # your photo
+author-name: All Mixed Up CA
+about-author: Community and organanization of multiracial and multicultural students. Founded by Sybelle Nestlehut, Nicola Trueblood, Kina Atkin-Yamaguchi, and Oliver Trevor. We are a supportive and inclusive environment and social group for people who see culture and race as being more than just one thing or another. # about author
+email: allmixedupca@gmail.com # your email
+# phone: (496)-169-6557 # your pnone number
+# website: https://dwayne.example.com # you website
 
 # Social link
-instagram_url: https://www.instagram.com/allmixedupca/ # add url link
-facebook_url:  # add url link
+instagram_handle: "@allmixedupca"
+instagram_url: https://www.instagram.com/allmixedupca
+facebook_username: AllMixedUpCA
+facebook_url:  https://www.facebook.com/AllMixedUpCA
 
 # Disqus
 # discus_identifier: mr-brown # add your discus identifier.  Not your username.  To get this, register your forum here with a unique ID: https://disqus.com/admin/create/
@@ -47,3 +49,4 @@ gems:
 
 include: [_pages]
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
+plugins: [jekyll-paginate]
